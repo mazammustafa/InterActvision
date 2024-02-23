@@ -100,8 +100,8 @@ img {
 
 .container {
     border: 2px solid var(--linear-secondary-color);
-    /* max-width: 90%; */
-    max-width: 1200px;
+    max-width: 90%;
+    /* max-width: 1200px; */
     margin: auto;
     width: 100%;
 }
