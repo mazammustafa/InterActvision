@@ -99,7 +99,7 @@ img {
 }
 
 .container {
-    /* border: 2px solid var(--linear-secondary-color); */
+    border: 2px solid var(--linear-secondary-color);
     max-width: 90%;
     margin: auto;
     width: 100%;
@@ -174,7 +174,7 @@ img {
     text-align: center;
 }
 
-.header .navbar .hamburgar{
+.header .navbar .hamburgar {
     display: none;
 }
 
@@ -185,6 +185,7 @@ img {
 
 .banner .banner-container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
     align-items: center;
 }
@@ -210,6 +211,7 @@ img {
 
 .aboutus .aboutus-container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -296,6 +298,7 @@ img {
 .services .services-container .bottom {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
@@ -365,7 +368,7 @@ img {
 
 .services .services-container .bottom .services-img-arrow {
     position: relative;
-    left: 80px;
+    left: -50px;
     bottom: 55px;
 }
 
@@ -426,7 +429,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 130px;
+    gap: 180px;
 }
 
 .calls-metrics .calls-metrics-conatiner .left {
@@ -470,6 +473,7 @@ img {
 
 .vertical-pricing .vertical-pricing-container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: end;
     gap: 130px;
@@ -555,8 +559,9 @@ img {
 
 .contact-us .contact-us-container {
     display: flex;
-    gap: 60px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
 }
 
 .contact-us .contact-us-container .left .title-heading {
@@ -589,8 +594,8 @@ img {
 }
 
 .contact-us .contact-us-container .right form {
-    width: 620px;
-    padding: 35px 57px;
+    width: 560px;
+    padding: 35px;
     background: #D8EDFF;
     border-radius: 30px;
 }
